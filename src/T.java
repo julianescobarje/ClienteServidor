@@ -47,6 +47,10 @@ public class T extends Thread {
 
   public static void main(String[] args) {
     int P = 1;
+
+    Buffer buffer = new Buffer(P);
+    T.setBuffer(buffer);
+
     int C = 3;
     int S = 4;
 
